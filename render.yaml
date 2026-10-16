@@ -2,7 +2,7 @@ services:
   - name: backup-db
     type: cron
     schedule: "0 7 * * *"
-    region: oregon
+    region: virginia
     env: docker
     plan: standard
     dockerfilePath: ./Dockerfile
